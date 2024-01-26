@@ -1,0 +1,585 @@
+.Prueba{
+    background-color: red;
+}
+
+.Login{
+    background-color: #75a963;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 410px;
+    height: 750px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 24px -14px rgba(0,0,0,0.75);
+    border-bottom: 25px;
+}
+
+.LogInButton{
+    border-radius: 11px;
+    background-color: #fcfed6;
+    height: 50px;
+    width: 390px;
+    border: none;
+    font-size: 30px;
+    color: #79bb63;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.conraseñaOlvidada{
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: arial;
+    color: #f9ffa7;
+}
+.preguntas{
+    margin-top: 29px;
+    margin-bottom: 15px; 
+    font-family: arial;
+    color: #f9ffa7;
+    font-weight: bolder;
+    font-family: arial; 
+    font-size: 22px;
+}
+.linea{
+    border:1px;
+    width: 20px;
+    width: 280px;
+    color: #5a8649;
+}
+.ResgisterButton{
+    border-radius: 11px;
+    background-color:#fcfed6;
+    height: 105px;
+    width: 390px;
+    border: none;
+    font-size: 30px;
+    color: #79bb63;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.crearCuentaButton{
+    border-radius: 11px;
+    background-color: #fcfed6;
+    height: 50px;
+    width: 390px;
+    border: none;
+    font-size: 30px;
+    color: #79bb63;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.Registre{
+    background-color: #75a963;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 24px -14px rgba(0,0,0,0.75); 
+    margin-top: 20px;
+}
+
+.IntroReg{
+    height: 250px;
+    
+}
+
+.containerIntroReg{
+    overflow: hidden;
+}
+
+.IntroReg ,.Registre{
+    width: 47%; 
+    float: left;
+    box-sizing: border-box; 
+}
+
+.fondoLogo{
+    background-color: #5a9a43; 
+    width: 420px;
+    margin-left: 120px;
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 75px;
+    box-shadow: 10px 10px 24px -14px rgba(0,0,0,0.75); 
+}
+
+.Container{
+    background-color: #fbffce;
+    display: grid;
+    overflow: auto;
+    grid-template-areas: 
+        "header header header "
+        "sideBar contenido  contenido "
+        "footer footer footer "
+
+}
+.header{
+    background-color: #5a9a43;
+    grid-area: header;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+.contenido{
+    background-color: #fbffce;;
+    grid-area: contenido;
+    height: 3500px;
+    width: 900px;
+}
+.sideBar{
+    background-color: #5a9a43;
+    grid-area: sideBar;
+    width: 250px;
+    position: sticky;
+    top: 100px;
+    z-index: 3;
+    width: 200px;
+    
+}
+.footer{
+    background-color: plum ;
+    grid-area: footer;
+    
+}
+.publicacion{
+    background-color: #fbffce;
+    border:solid, black;
+    width: 70%;
+    height: 29%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid #e3ea97;
+}
+.fotoPublicacion{
+    width: 99%;
+    height: 100%;
+}
+.fotoPerfil-usuario{
+    background-color: #fbffce;
+    height: 74px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.fotoPerfilPublicacion{
+    height: 50px; 
+    width:50px;
+    border-radius: 500px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.ContainerFoto{
+    background-color: black;
+    border: solid, black;
+    width: 85%;
+    border-radius: 10px;
+}
+.containerLikes{
+    margin-top: 20px;
+    height: 60px;
+    margin-left: 60px;
+    width: 700px;
+}
+.escritoPublicacion{
+    width: 100%;
+    height: 75px;
+}
+.parrafoPubli{
+    font-family: sans-serif;
+}
+.comentarios{
+    margin-left: 60px;
+    width: 100%;
+    height: 40px;
+}
+.sideBarContainer{
+    position: sticky;
+    top: 100px;
+}
+.containerListaSidebar .ListaSidebar{
+    padding: 20px 0;
+    margin-left: -35px;
+}
+.containerListaSidebar .ListaSidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid  #79bb63;
+    border-bottom: 1px solid  #79bb63;  
+}
+.containerListaSidebar .ListaSidebar ul li .fa-solid{
+    width: 20px;
+    height: 20px;    
+}
+.containerListaSidebar .ListaSidebar ul li:hover{
+    background-color: #90a888;
+    width: 85%;
+}
+.containerListaSidebar .ListaSidebar ul li:hover a{
+    color: #e3ea97;
+}
+.listaSidebar ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+ul{
+    list-style: none;  
+}
+nav ul li a{
+    text-decoration: none;
+    color:#ddd ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.containerPerfil{
+    background-color: #447633;
+    display: grid;
+    height: 100%;
+    margin: 0px;
+    width: 100%;
+    grid-template-columns: 20% ;
+    grid-template-rows:  25% 5% auto 5%;
+    grid-template-areas: 
+    "sideBar header header "
+    "sideBar bio bio"
+    "sideBar contenido  contenido "
+    "footer footer footer "
+    
+}
+.cabeceraPerfil{
+    background-color: #447633;
+    grid-area: header;
+    overflow: hidden;
+  
+}
+.tipoPubli{
+    background-color: #447633;
+    grid-area: bio;
+    margin-left: 64px;
+    margin-right: 64px;
+    border-top: solid 2px #90a888;
+}
+.fotos{
+    background-color: #447633;
+    grid-area: contenido;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-left: 64px;
+    margin-right: 64px;
+      
+}
+.barraLateral{
+    grid-area: sideBar;
+}
+.footerPerfil{
+    background-color: rgb(38, 104, 161);
+    grid-area: footer;
+}
+.fotoPubli1{
+    background-color: red;
+    border: solid 4px #447633;
+    width: 285px;
+    height: 290px;
+    transition: background-color 0.3s ease;
+}
+.fotoPubli1:hover:after {
+    content: "💚" "200"  "🗨️" "320";
+    background-color: #fbffce8e; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(253, 253, 0);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.fotoPubli2{
+    background-color: rgb(170, 0, 255);
+    border: solid 4px #447633;
+    width: 285px;
+    height: 290px;
+}
+.fotoPubli2:hover:after {
+    content: "💚" "200"  "🗨️" "320";
+    background-color: #fbffce8e; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(253, 253, 0);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    
+}
+.fotoPubli3{
+    background-color: rgb(60, 255, 0);
+    border: solid 4px #447633;
+    width: 285px;
+    height: 290px;
+}
+.fotoPubli3:hover:after {
+    content: "💚" "200"  "🗨️" "320";
+    background-color: #fbffce8e; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(253, 253, 0);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    
+}
+.fotoPubli4{
+    background-color: rgb(255, 0, 208);
+    border: solid 4px #447633;
+    width: 285px;
+    height: 290px;
+}
+.fotoPubli4:hover:after {
+    content: "💚" "200"  "🗨️" "320";
+    background-color: #fbffce8e; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(253, 253, 0);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    
+}
+.fotoPubli5{
+    background-color: rgb(255, 251, 0);
+    border: solid 4px #447633;
+    width: 285px;
+    height: 290px;
+}
+.fotoPubli5:hover:after {
+    content: "💚" "200"  "🗨️" "320";
+    background-color: #fbffce8e; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(253, 253, 0);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    
+}
+.fotoPubli6{
+    background-color: rgb(255, 123, 0);
+    border: solid 4px #447633;
+    width: 285px;
+    height: 290px;
+}
+.fotoPubli6:hover:after {
+    content: "💚" "200"  "🗨️" "320";
+    background-color: #fbffce8e; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(253, 253, 0);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    
+}
+.fotoPubli7{
+    background-color: rgb(75, 56, 38);
+    border: solid 4px #447633;
+    width: 285px;
+    height: 290px;
+}
+.fotoPubli7:hover:after {
+    content: "💚" "200"  "🗨️" "320";
+    background-color: #fbffce8e; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(253, 253, 0);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    
+}
+.fotoPubli8{
+    background-color: rgb(86, 126, 144);
+    border: solid 4px #447633;
+    width: 285px;
+    height: 290px;
+}
+.fotoPubli8:hover:after {
+    content: "💚" "200"  "🗨️" "320";
+    background-color: #fbffce8e; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(253, 253, 0);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    
+}
+.fotoPubli9{
+    background-color: rgb(120, 0, 176);
+    border: solid 4px #447633;
+    width: 285px;
+    height: 290px;
+}
+.fotoPubli9:hover:after {
+    content: "💚" "200"  "🗨️" "320";
+    background-color: #fbffce8e; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(253, 253, 0);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    
+}
+.barraLateral{
+    background-color: lightgreen;
+    border: solid o.5px black;
+    
+}
+.datos{
+    background-color:#447633;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFFFFF;
+}
+.nombrePerfil{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFFFFF;
+}
+.estadisticas{
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: center;
+   
+}
+.bio{
+    width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFFFFF;
+}
+.fotoPerfil-perfil{
+    height: 239px;;
+    width: 110px;
+    background-color: #447633;
+    
+}
+.FotoP{
+    border-radius: 100%;
+    width: 150px;
+    margin-left: 135px;
+    margin-top: 35px;
+}
+.datos, .fotoPerfil-perfil{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+.numeros{
+    font-size: 23px;
+    font-stretch: condensed;
+}
+.letras{
+    margin: 0%;
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 10px;
+    color: #f0f2f263;
+}

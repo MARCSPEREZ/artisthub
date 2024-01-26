@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .miDiv {
+            position: relative;
+            width: 285px;
+            height: 290px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 100px; /* Ajusta según la altura del div */
+            transition: background-color 0.3s ease; /* Agrega una transición suave al cambio de color */
+        }
+
+        .miDiv:hover {
+             /* Cambia el color al pasar el mouse sobre el div */
+        }
+
+        .miDiv:hover:after {
+            content: "200" "😊" "  " "320" "COMENTARIOS";
+            background-color: lightcoral;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: white;
+            font-size: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+        }
+
+       
+    </style>
+    <title>Números al Pasar el Ratón</title>
+</head>
+<body>
+    <div class="miDiv">
+        Contenido del div
+    </div>
+</body>
+</html>
